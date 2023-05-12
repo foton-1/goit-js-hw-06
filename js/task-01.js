@@ -9,7 +9,7 @@ itemEl.forEach(item => {
   console.log(`Elements: ${itemLi}`);
 });
 
-/*-----Хороший варіант --*/
+/*----------Ще варіант --*/
 // const items = document.querySelectorAll("#categories .item");
 // console.log(`Number of categories: ${items.length}`);
 // items.forEach((item) => {
@@ -17,7 +17,7 @@ itemEl.forEach(item => {
 //   console.log(`Elements: ${item.querySelectorAll("li").length}`);
 // });
 
-/*-----Різні варіанти ----*/
+/*------------Інші варіанти ----*/
 
 // for (const itemCh of itemEl) {
 //   let h2Te = itemCh.querySelector('h2').textContent;
