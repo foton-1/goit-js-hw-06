@@ -22,3 +22,20 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.task-03-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+.task-03-li {
+  max-width: calc((100% - 20px) / 3);
+  height: auto;
+}
+
+.task-03-img {
+  width: 100%;
+}

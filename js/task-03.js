@@ -12,3 +12,15 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+/*------------insertAdjacentHTML----*/
+const galleryEl = document.querySelector('.gallery');
+galleryEl.classList.add('task-03-ul');
+const makeLi = images
+  .map(
+    imag =>
+      `<li class="task-03-li"> <img src="${imag.url}" alt="${imag.alt}" class="task-03-img"/></li>`
+  )
+  .join('\n');
+console.log(makeLi);
+
+galleryEl.insertAdjacentHTML('afterbegin', makeLi);
